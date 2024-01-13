@@ -19,7 +19,7 @@ Request:
 }
 
 2. Update User Location
-PUT :'/user/:userId/location'
+- PUT :'/user/:userId/location'
 Update the location for a specific user.
 Request:
 
@@ -28,7 +28,7 @@ Request:
 }
 
 3. Get Users for a Specific Date
-GET : '/users/weather/:date'
+- GET : '/users/weather/:date'
 Get a list of users and their locations for a specific date.
 
 Important Note
